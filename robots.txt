@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://stelliums.pages.dev/sitemap_index.xml
+Sitemap: https://stelliums.pages.dev/sitemap-index.xml
+
