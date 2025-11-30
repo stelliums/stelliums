@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stelliums - Welcome</title>
-    <meta name="description" content="Discover Stelliums - your description here">
+    <title>Aries Stelliums - Complete Guide to All 12 House Placements</title>
+    <meta name="description" content="Complete collection of Aries stellium interpretations for all 12 houses. Discover how Aries energy manifests in each area of your life through powerful planetary clusters.">
+    <meta name="google-site-verification" content="u_6m7Gweo7qTdFkmSLii3g0rZPg1ulUxsfz3MI1WYrg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "headline": "Aries Stelliums - Complete Guide to All 12 House Placements",
+      "description": "Comprehensive collection exploring Aries stelliums in all 12 houses of the birth chart",
+      "author": {
+        "@type": "Person",
+        "name": "Hermes Astrology"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stelliums Org"
+      },
+      "datePublished": "2024-01-15",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://stelliums.org/aries-stelliums"
+      }
+    }
+    </script>
+    
     <style>
         * {
             margin: 0;
@@ -12,55 +41,396 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
             color: #333;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            background: #f8f9fa;
         }
         header {
-            background: #f4f4f4;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        .logo {
+            max-width: 200px;
+            margin: 0 auto 1rem;
+            display: block;
+        }
+        nav {
+            background: #2c3e50;
             padding: 1rem;
             margin-bottom: 2rem;
             border-radius: 5px;
         }
         nav a {
-            margin-right: 1rem;
+            color: white;
             text-decoration: none;
-            color: #0066cc;
+            margin-right: 1.5rem;
+            font-weight: 500;
         }
-        main {
-            padding: 2rem 0;
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.5rem 0;
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+        .content-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .aries-intro {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .houses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .house-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .house-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        .house-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+        }
+        .house-content {
+            padding: 1.5rem;
+        }
+        .house-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        .house-link:hover {
+            background: #2980b9;
+            text-decoration: none;
+        }
+        .zodiac-signs {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .zodiac-sign {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .zodiac-sign:hover {
+            transform: translateY(-3px);
+        }
+        .zodiac-sign.current {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+        }
+        .author-section {
+            background: #ecf0f1;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
         }
         footer {
             text-align: center;
-            margin-top: 2rem;
-            padding: 1rem;
-            border-top: 1px solid #ccc;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid #bdc3c7;
+            color: #7f8c8d;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            opacity: 0.7;
+            position: relative;
+        }
+        .coming-soon::after {
+            content: "Coming Soon";
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: #e74c3c;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.7rem;
+        }
+        .featured-section {
+            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Stelliums</h1>
-        <nav>
-            <a href="https://stelliums.blog/">Home</a>
-            <a href="https://stelliums.blog/about">About</a>
-            <a href="https://stelliums.blog/contact">Contact</a>
-        </nav>
+        <div class="header-content">
+            <img src="logo.webp" alt="Stelliums Org Logo" class="logo">
+            <h1>Aries Stelliums</h1>
+            <p>Complete Guide to Aries Planetary Clusters in All 12 Houses</p>
+        </div>
     </header>
     
-    <main>
-        <section>
-            <h2>About Stelliums</h2>
-            <p>This is where your content goes. Describe what Stelliums is about.</p>
-            <p>Now with a custom domain that Google will trust!</p>
-        </section>
-    </main>
-    
+    <nav>
+        <a href="https://stelliums.org/">Home</a>
+        <a href="https://stelliums.org/about">About</a>
+        <a href="https://stelliums.org/contact">Contact</a>
+    </nav>
+
+    <div class="content-section">
+        <div class="aries-intro">
+            <h2>The Aries Energy in Your Birth Chart</h2>
+            <p>Aries, the first sign of the zodiac, represents the primal spark of initiative, courage, and self-assertion. When multiple planets cluster in Aries within a specific house of your birth chart, they create a powerful stellium that intensifies these qualities in that area of life. Explore how an Aries stellium manifests in each of the 12 houses to understand where your pioneering spirit shines brightest.</p>
+        </div>
+
+        <h2>Aries Stellium in All 12 Houses</h2>
+        <p>Click on any house placement below to read the detailed interpretation:</p>
+        
+        <div class="houses-grid">
+            <!-- House 1 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>1st House</h3>
+                    <p>The Self & Identity</p>
+                </div>
+                <div class="house-content">
+                    <p>When Aries planets cluster in your 1st House, your identity is fundamentally shaped by initiative, courage, and self-assertion. You project raw energy and pioneering spirit.</p>
+                    <a href="aries-stellium-1st-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 2 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>2nd House</h3>
+                    <p>Values & Resources</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 2nd House creates a dynamic approach to resources, values, and self-worth. You initiate financial opportunities with courage.</p>
+                    <a href="aries-stellium-2nd-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 3 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>3rd House</h3>
+                    <p>Communication & Learning</p>
+                </div>
+                <div class="house-content">
+                    <p>With Aries planets in your 3rd House, your mind operates with pioneering speed and directness. You communicate with courageous immediacy.</p>
+                    <a href="aries-stellium-3rd-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 4 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>4th House</h3>
+                    <p>Home & Foundations</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 4th House brings pioneering energy to your roots and domestic life. You courageously establish new family traditions.</p>
+                    <a href="aries-stellium-4th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 5 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>5th House</h3>
+                    <p>Creativity & Pleasure</p>
+                </div>
+                <div class="house-content">
+                    <p>With Aries planets in your 5th House, your creative expression and romantic pursuits are marked by bold initiative and courageous self-expression.</p>
+                    <a href="aries-stellium-5th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 6 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>6th House</h3>
+                    <p>Health & Service</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 6th House creates a pioneering approach to work, health, and daily routines. You initiate improvements with courage.</p>
+                    <a href="aries-stellium-6th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 7 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>7th House</h3>
+                    <p>Partnerships & Relationships</p>
+                </div>
+                <div class="house-content">
+                    <p>With Aries planets in your 7th House, you approach relationships with pioneering spirit and courage. You initiate partnerships boldly.</p>
+                    <a href="aries-stellium-7th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 8 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>8th House</h3>
+                    <p>Transformation & Shared Resources</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 8th House brings courageous energy to transformation, intimacy, and shared resources. You pioneer psychological depths.</p>
+                    <a href="aries-stellium-8th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 9 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>9th House</h3>
+                    <p>Philosophy & Expansion</p>
+                </div>
+                <div class="house-content">
+                    <p>With Aries planets in your 9th House, you approach higher learning and philosophy with pioneering courage. You're a philosophical trailblazer.</p>
+                    <a href="aries-stellium-9th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 10 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>10th House</h3>
+                    <p>Career & Public Life</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 10th House creates a pioneering approach to career and public recognition. You courageously chart your professional path.</p>
+                    <a href="aries-stellium-10th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 11 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>11th House</h3>
+                    <p>Community & Future Vision</p>
+                </div>
+                <div class="house-content">
+                    <p>With Aries planets in your 11th House, you bring pioneering energy to friendships, groups, and future visions. You courageously innovate socially.</p>
+                    <a href="aries-stellium-11th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+            
+            <!-- House 12 -->
+            <div class="house-card">
+                <div class="house-header">
+                    <h3>12th House</h3>
+                    <p>Spirituality & Unconscious</p>
+                </div>
+                <div class="house-content">
+                    <p>An Aries stellium in the 12th House brings courageous energy to spirituality and the unconscious. You pioneer inner landscapes as a spiritual warrior.</p>
+                    <a href="aries-stellium-12th-house.html" class="house-link">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="featured-section">
+            <h2>Understanding Stelliums</h2>
+            <p>A stellium occurs when three or more planets cluster in one zodiac sign or house, creating an intense concentration of energy that becomes a dominant theme in your birth chart. When this happens in Aries, the sign of initiative and courage, it creates a powerful drive to pioneer, lead, and assert your individuality in the area of life represented by the house placement.</p>
+            <p>Explore how this dynamic energy manifests in each area of your life by clicking on the house placements above.</p>
+        </div>
+        
+        <h2>All Zodiac Stelliums</h2>
+        <p>Browse stellium interpretations for all zodiac signs (Aries is currently featured):</p>
+        
+        <div class="zodiac-signs">
+            <div class="zodiac-sign current">Aries</div>
+            <div class="zodiac-sign coming-soon">Taurus</div>
+            <div class="zodiac-sign coming-soon">Gemini</div>
+            <div class="zodiac-sign coming-soon">Cancer</div>
+            <div class="zodiac-sign coming-soon">Leo</div>
+            <div class="zodiac-sign coming-soon">Virgo</div>
+            <div class="zodiac-sign coming-soon">Libra</div>
+            <div class="zodiac-sign coming-soon">Scorpio</div>
+            <div class="zodiac-sign coming-soon">Sagittarius</div>
+            <div class="zodiac-sign coming-soon">Capricorn</div>
+            <div class="zodiac-sign coming-soon">Aquarius</div>
+            <div class="zodiac-sign coming-soon">Pisces</div>
+        </div>
+    </div>
+
+    <div class="author-section">
+        <h2>About Stelliums Org</h2>
+        <h3>Comprehensive Astrology Resources</h3>
+        
+        <p>Stelliums Org provides in-depth astrological interpretations focused on planetary clusters and their profound impact on human experience. Our mission is to make complex astrological concepts accessible and practical for personal growth and self-understanding.</p>
+
+        <h3>About Our Astrology Approach</h3>
+        <p>We combine traditional astrological wisdom with contemporary psychological insights to create interpretations that are both spiritually meaningful and practically applicable. Each guide is meticulously researched and written to help you understand how planetary energies manifest in different areas of your life.</p>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Stelliums. All rights reserved.</p>
+        <p><a href="https://stelliums.org/">stelliums.org</a> | Follow Us: <a href="https://hermesastrology.substack.com/">Substack</a> | <a href="https://medium.com/@HermesAstrology">Medium</a></p>
+        <p>© 2024 Stelliums Org. All astrological interpretations are for personal growth and entertainment purposes.</p>
     </footer>
 </body>
 </html>
