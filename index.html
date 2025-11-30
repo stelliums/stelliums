@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aries Stelliums - Complete Guide to All 12 House Placements</title>
-    <meta name="description" content="Complete collection of Aries stellium interpretations for all 12 houses. Discover how Aries energy manifests in each area of your life through powerful planetary clusters.">
+    <title>Stelliums Astrology Guide - Complete Zodiac Stellium Interpretations</title>
+    <meta name="description" content="Complete collection of stellium interpretations for all 12 zodiac signs and houses. Discover how planetary clusters shape your personality and life path.">
     <meta name="google-site-verification" content="u_6m7Gweo7qTdFkmSLii3g0rZPg1ulUxsfz3MI1WYrg" />
     
     <!-- Favicon -->
@@ -16,8 +16,8 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "headline": "Aries Stelliums - Complete Guide to All 12 House Placements",
-      "description": "Comprehensive collection exploring Aries stelliums in all 12 houses of the birth chart",
+      "headline": "Stelliums Astrology Guide - Complete Zodiac Stellium Interpretations",
+      "description": "Comprehensive collection exploring stelliums for all 12 zodiac signs across all 12 houses of the birth chart",
       "author": {
         "@type": "Person",
         "name": "Hermes Astrology"
@@ -29,7 +29,7 @@
       "datePublished": "2024-01-15",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://stelliums.org/aries-stelliums"
+        "@id": "https://stelliums.org/"
       }
     }
     </script>
@@ -112,73 +112,68 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
-        .aries-intro {
+        .intro-section {
             background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
             color: white;
             padding: 2rem;
             border-radius: 8px;
             margin: 2rem 0;
         }
-        .houses-grid {
+        .zodiac-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem;
             margin: 2rem 0;
         }
-        .house-card {
+        .zodiac-card {
             background: white;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .house-card:hover {
+        .zodiac-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 15px rgba(0,0,0,0.1);
         }
-        .house-header {
+        .zodiac-header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 1.5rem;
+            text-align: center;
         }
-        .house-content {
+        .zodiac-content {
             padding: 1.5rem;
         }
+        .houses-list {
+            list-style: none;
+            margin: 1rem 0;
+        }
+        .houses-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+        .houses-list li::before {
+            content: "•";
+            color: #667eea;
+            position: absolute;
+            left: 0;
+        }
         .house-link {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
+            color: #3498db;
             text-decoration: none;
-            font-weight: 500;
-            margin-top: 1rem;
-            transition: background 0.3s ease;
+            transition: color 0.3s ease;
         }
         .house-link:hover {
-            background: #2980b9;
-            text-decoration: none;
+            color: #2980b9;
+            text-decoration: underline;
         }
-        .zodiac-signs {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-        .zodiac-sign {
-            background: white;
-            padding: 1rem;
+        .featured-section {
+            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
+            padding: 2rem;
             border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease;
-        }
-        .zodiac-sign:hover {
-            transform: translateY(-3px);
-        }
-        .zodiac-sign.current {
-            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-            color: white;
+            margin: 2rem 0;
         }
         .author-section {
             background: #ecf0f1;
@@ -200,26 +195,39 @@
         a:hover {
             text-decoration: underline;
         }
-        .coming-soon {
-            opacity: 0.7;
-            position: relative;
+        .zodiac-symbol {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
         }
-        .coming-soon::after {
-            content: "Coming Soon";
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            background: #e74c3c;
+        .cta-banner {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
             color: white;
-            padding: 2px 8px;
-            border-radius: 3px;
-            font-size: 0.7rem;
-        }
-        .featured-section {
-            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
             padding: 2rem;
             border-radius: 8px;
             margin: 2rem 0;
+            text-align: center;
+        }
+        .cta-banner a {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .book-image {
+            max-width: 200px;
+            margin: 1rem auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 900px) {
+            .zodiac-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .zodiac-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -227,8 +235,8 @@
     <header>
         <div class="header-content">
             <img src="logo.webp" alt="Stelliums Org Logo" class="logo">
-            <h1>Aries Stelliums</h1>
-            <p>Complete Guide to Aries Planetary Clusters in All 12 Houses</p>
+            <h1>Complete Stelliums Astrology Guide</h1>
+            <p>Zodiac Stellium Interpretations for All 12 Houses</p>
         </div>
     </header>
     
@@ -239,197 +247,340 @@
     </nav>
 
     <div class="content-section">
-        <div class="aries-intro">
-            <h2>The Aries Energy in Your Birth Chart</h2>
-            <p>Aries, the first sign of the zodiac, represents the primal spark of initiative, courage, and self-assertion. When multiple planets cluster in Aries within a specific house of your birth chart, they create a powerful stellium that intensifies these qualities in that area of life. Explore how an Aries stellium manifests in each of the 12 houses to understand where your pioneering spirit shines brightest.</p>
+        <div class="intro-section">
+            <h2>Understanding Stelliums in Astrology</h2>
+            <p>A stellium occurs when three or more planets cluster in one zodiac sign or house in your birth chart, creating an intense concentration of energy that becomes a dominant theme in your personality and life experience. This powerful configuration amplifies the qualities of the sign and house, creating a focal point of your personal expression and life path.</p>
+            <p>Stelliums represent areas of life where you have exceptional focus, talent, and challenges. They show where you pour your energy and where you're destined to learn important life lessons. Understanding your stelliums can provide profound insights into your core motivations, strengths, and areas for growth.</p>
         </div>
 
-        <h2>Aries Stellium in All 12 Houses</h2>
-        <p>Click on any house placement below to read the detailed interpretation:</p>
+        <h2>Zodiac Stellium Guides</h2>
+        <p>Explore stellium interpretations for all 12 zodiac signs across all 12 houses:</p>
         
-        <div class="houses-grid">
-            <!-- House 1 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>1st House</h3>
-                    <p>The Self & Identity</p>
+        <div class="zodiac-grid">
+            <!-- Aries -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♈</div>
+                    <h3>Aries Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>When Aries planets cluster in your 1st House, your identity is fundamentally shaped by initiative, courage, and self-assertion. You project raw energy and pioneering spirit.</p>
-                    <a href="aries-stellium-1st-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 2 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>2nd House</h3>
-                    <p>Values & Resources</p>
-                </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 2nd House creates a dynamic approach to resources, values, and self-worth. You initiate financial opportunities with courage.</p>
-                    <a href="aries-stellium-2nd-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 3 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>3rd House</h3>
-                    <p>Communication & Learning</p>
-                </div>
-                <div class="house-content">
-                    <p>With Aries planets in your 3rd House, your mind operates with pioneering speed and directness. You communicate with courageous immediacy.</p>
-                    <a href="aries-stellium-3rd-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="aries-stellium-1st-house.html" class="house-link">Aries Stellium in 1st House</a></li>
+                        <li><a href="aries-stellium-2nd-house.html" class="house-link">Aries Stellium in 2nd House</a></li>
+                        <li><a href="aries-stellium-3rd-house.html" class="house-link">Aries Stellium in 3rd House</a></li>
+                        <li><a href="aries-stellium-4th-house.html" class="house-link">Aries Stellium in 4th House</a></li>
+                        <li><a href="aries-stellium-5th-house.html" class="house-link">Aries Stellium in 5th House</a></li>
+                        <li><a href="aries-stellium-6th-house.html" class="house-link">Aries Stellium in 6th House</a></li>
+                        <li><a href="aries-stellium-7th-house.html" class="house-link">Aries Stellium in 7th House</a></li>
+                        <li><a href="aries-stellium-8th-house.html" class="house-link">Aries Stellium in 8th House</a></li>
+                        <li><a href="aries-stellium-9th-house.html" class="house-link">Aries Stellium in 9th House</a></li>
+                        <li><a href="aries-stellium-10th-house.html" class="house-link">Aries Stellium in 10th House</a></li>
+                        <li><a href="aries-stellium-11th-house.html" class="house-link">Aries Stellium in 11th House</a></li>
+                        <li><a href="aries-stellium-12th-house.html" class="house-link">Aries Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- House 4 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>4th House</h3>
-                    <p>Home & Foundations</p>
+            <!-- Taurus -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♉</div>
+                    <h3>Taurus Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 4th House brings pioneering energy to your roots and domestic life. You courageously establish new family traditions.</p>
-                    <a href="aries-stellium-4th-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 5 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>5th House</h3>
-                    <p>Creativity & Pleasure</p>
-                </div>
-                <div class="house-content">
-                    <p>With Aries planets in your 5th House, your creative expression and romantic pursuits are marked by bold initiative and courageous self-expression.</p>
-                    <a href="aries-stellium-5th-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 6 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>6th House</h3>
-                    <p>Health & Service</p>
-                </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 6th House creates a pioneering approach to work, health, and daily routines. You initiate improvements with courage.</p>
-                    <a href="aries-stellium-6th-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="taurus-stellium-1st-house.html" class="house-link">Taurus Stellium in 1st House</a></li>
+                        <li><a href="taurus-stellium-2nd-house.html" class="house-link">Taurus Stellium in 2nd House</a></li>
+                        <li><a href="taurus-stellium-3rd-house.html" class="house-link">Taurus Stellium in 3rd House</a></li>
+                        <li><a href="taurus-stellium-4th-house.html" class="house-link">Taurus Stellium in 4th House</a></li>
+                        <li><a href="taurus-stellium-5th-house.html" class="house-link">Taurus Stellium in 5th House</a></li>
+                        <li><a href="taurus-stellium-6th-house.html" class="house-link">Taurus Stellium in 6th House</a></li>
+                        <li><a href="taurus-stellium-7th-house.html" class="house-link">Taurus Stellium in 7th House</a></li>
+                        <li><a href="taurus-stellium-8th-house.html" class="house-link">Taurus Stellium in 8th House</a></li>
+                        <li><a href="taurus-stellium-9th-house.html" class="house-link">Taurus Stellium in 9th House</a></li>
+                        <li><a href="taurus-stellium-10th-house.html" class="house-link">Taurus Stellium in 10th House</a></li>
+                        <li><a href="taurus-stellium-11th-house.html" class="house-link">Taurus Stellium in 11th House</a></li>
+                        <li><a href="taurus-stellium-12th-house.html" class="house-link">Taurus Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- House 7 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>7th House</h3>
-                    <p>Partnerships & Relationships</p>
+            <!-- Gemini -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♊</div>
+                    <h3>Gemini Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>With Aries planets in your 7th House, you approach relationships with pioneering spirit and courage. You initiate partnerships boldly.</p>
-                    <a href="aries-stellium-7th-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 8 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>8th House</h3>
-                    <p>Transformation & Shared Resources</p>
-                </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 8th House brings courageous energy to transformation, intimacy, and shared resources. You pioneer psychological depths.</p>
-                    <a href="aries-stellium-8th-house.html" class="house-link">Read More</a>
-                </div>
-            </div>
-            
-            <!-- House 9 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>9th House</h3>
-                    <p>Philosophy & Expansion</p>
-                </div>
-                <div class="house-content">
-                    <p>With Aries planets in your 9th House, you approach higher learning and philosophy with pioneering courage. You're a philosophical trailblazer.</p>
-                    <a href="aries-stellium-9th-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="gemini-stellium-1st-house.html" class="house-link">Gemini Stellium in 1st House</a></li>
+                        <li><a href="gemini-stellium-2nd-house.html" class="house-link">Gemini Stellium in 2nd House</a></li>
+                        <li><a href="gemini-stellium-3rd-house.html" class="house-link">Gemini Stellium in 3rd House</a></li>
+                        <li><a href="gemini-stellium-4th-house.html" class="house-link">Gemini Stellium in 4th House</a></li>
+                        <li><a href="gemini-stellium-5th-house.html" class="house-link">Gemini Stellium in 5th House</a></li>
+                        <li><a href="gemini-stellium-6th-house.html" class="house-link">Gemini Stellium in 6th House</a></li>
+                        <li><a href="gemini-stellium-7th-house.html" class="house-link">Gemini Stellium in 7th House</a></li>
+                        <li><a href="gemini-stellium-8th-house.html" class="house-link">Gemini Stellium in 8th House</a></li>
+                        <li><a href="gemini-stellium-9th-house.html" class="house-link">Gemini Stellium in 9th House</a></li>
+                        <li><a href="gemini-stellium-10th-house.html" class="house-link">Gemini Stellium in 10th House</a></li>
+                        <li><a href="gemini-stellium-11th-house.html" class="house-link">Gemini Stellium in 11th House</a></li>
+                        <li><a href="gemini-stellium-12th-house.html" class="house-link">Gemini Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- House 10 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>10th House</h3>
-                    <p>Career & Public Life</p>
+            <!-- Cancer -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♋</div>
+                    <h3>Cancer Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 10th House creates a pioneering approach to career and public recognition. You courageously chart your professional path.</p>
-                    <a href="aries-stellium-10th-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="cancer-stellium-1st-house.html" class="house-link">Cancer Stellium in 1st House</a></li>
+                        <li><a href="cancer-stellium-2nd-house.html" class="house-link">Cancer Stellium in 2nd House</a></li>
+                        <li><a href="cancer-stellium-3rd-house.html" class="house-link">Cancer Stellium in 3rd House</a></li>
+                        <li><a href="cancer-stellium-4th-house.html" class="house-link">Cancer Stellium in 4th House</a></li>
+                        <li><a href="cancer-stellium-5th-house.html" class="house-link">Cancer Stellium in 5th House</a></li>
+                        <li><a href="cancer-stellium-6th-house.html" class="house-link">Cancer Stellium in 6th House</a></li>
+                        <li><a href="cancer-stellium-7th-house.html" class="house-link">Cancer Stellium in 7th House</a></li>
+                        <li><a href="cancer-stellium-8th-house.html" class="house-link">Cancer Stellium in 8th House</a></li>
+                        <li><a href="cancer-stellium-9th-house.html" class="house-link">Cancer Stellium in 9th House</a></li>
+                        <li><a href="cancer-stellium-10th-house.html" class="house-link">Cancer Stellium in 10th House</a></li>
+                        <li><a href="cancer-stellium-11th-house.html" class="house-link">Cancer Stellium in 11th House</a></li>
+                        <li><a href="cancer-stellium-12th-house.html" class="house-link">Cancer Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- House 11 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>11th House</h3>
-                    <p>Community & Future Vision</p>
+            <!-- Leo -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♌</div>
+                    <h3>Leo Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>With Aries planets in your 11th House, you bring pioneering energy to friendships, groups, and future visions. You courageously innovate socially.</p>
-                    <a href="aries-stellium-11th-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="leo-stellium-1st-house.html" class="house-link">Leo Stellium in 1st House</a></li>
+                        <li><a href="leo-stellium-2nd-house.html" class="house-link">Leo Stellium in 2nd House</a></li>
+                        <li><a href="leo-stellium-3rd-house.html" class="house-link">Leo Stellium in 3rd House</a></li>
+                        <li><a href="leo-stellium-4th-house.html" class="house-link">Leo Stellium in 4th House</a></li>
+                        <li><a href="leo-stellium-5th-house.html" class="house-link">Leo Stellium in 5th House</a></li>
+                        <li><a href="leo-stellium-6th-house.html" class="house-link">Leo Stellium in 6th House</a></li>
+                        <li><a href="leo-stellium-7th-house.html" class="house-link">Leo Stellium in 7th House</a></li>
+                        <li><a href="leo-stellium-8th-house.html" class="house-link">Leo Stellium in 8th House</a></li>
+                        <li><a href="leo-stellium-9th-house.html" class="house-link">Leo Stellium in 9th House</a></li>
+                        <li><a href="leo-stellium-10th-house.html" class="house-link">Leo Stellium in 10th House</a></li>
+                        <li><a href="leo-stellium-11th-house.html" class="house-link">Leo Stellium in 11th House</a></li>
+                        <li><a href="leo-stellium-12th-house.html" class="house-link">Leo Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
             
-            <!-- House 12 -->
-            <div class="house-card">
-                <div class="house-header">
-                    <h3>12th House</h3>
-                    <p>Spirituality & Unconscious</p>
+            <!-- Virgo -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♍</div>
+                    <h3>Virgo Stelliums</h3>
                 </div>
-                <div class="house-content">
-                    <p>An Aries stellium in the 12th House brings courageous energy to spirituality and the unconscious. You pioneer inner landscapes as a spiritual warrior.</p>
-                    <a href="aries-stellium-12th-house.html" class="house-link">Read More</a>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="virgo-stellium-1st-house.html" class="house-link">Virgo Stellium in 1st House</a></li>
+                        <li><a href="virgo-stellium-2nd-house.html" class="house-link">Virgo Stellium in 2nd House</a></li>
+                        <li><a href="virgo-stellium-3rd-house.html" class="house-link">Virgo Stellium in 3rd House</a></li>
+                        <li><a href="virgo-stellium-4th-house.html" class="house-link">Virgo Stellium in 4th House</a></li>
+                        <li><a href="virgo-stellium-5th-house.html" class="house-link">Virgo Stellium in 5th House</a></li>
+                        <li><a href="virgo-stellium-6th-house.html" class="house-link">Virgo Stellium in 6th House</a></li>
+                        <li><a href="virgo-stellium-7th-house.html" class="house-link">Virgo Stellium in 7th House</a></li>
+                        <li><a href="virgo-stellium-8th-house.html" class="house-link">Virgo Stellium in 8th House</a></li>
+                        <li><a href="virgo-stellium-9th-house.html" class="house-link">Virgo Stellium in 9th House</a></li>
+                        <li><a href="virgo-stellium-10th-house.html" class="house-link">Virgo Stellium in 10th House</a></li>
+                        <li><a href="virgo-stellium-11th-house.html" class="house-link">Virgo Stellium in 11th House</a></li>
+                        <li><a href="virgo-stellium-12th-house.html" class="house-link">Virgo Stellium in 12th House</a></li>
+                    </ul>
                 </div>
             </div>
+            
+            <!-- Libra -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♎</div>
+                    <h3>Libra Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="libra-stellium-1st-house.html" class="house-link">Libra Stellium in 1st House</a></li>
+                        <li><a href="libra-stellium-2nd-house.html" class="house-link">Libra Stellium in 2nd House</a></li>
+                        <li><a href="libra-stellium-3rd-house.html" class="house-link">Libra Stellium in 3rd House</a></li>
+                        <li><a href="libra-stellium-4th-house.html" class="house-link">Libra Stellium in 4th House</a></li>
+                        <li><a href="libra-stellium-5th-house.html" class="house-link">Libra Stellium in 5th House</a></li>
+                        <li><a href="libra-stellium-6th-house.html" class="house-link">Libra Stellium in 6th House</a></li>
+                        <li><a href="libra-stellium-7th-house.html" class="house-link">Libra Stellium in 7th House</a></li>
+                        <li><a href="libra-stellium-8th-house.html" class="house-link">Libra Stellium in 8th House</a></li>
+                        <li><a href="libra-stellium-9th-house.html" class="house-link">Libra Stellium in 9th House</a></li>
+                        <li><a href="libra-stellium-10th-house.html" class="house-link">Libra Stellium in 10th House</a></li>
+                        <li><a href="libra-stellium-11th-house.html" class="house-link">Libra Stellium in 11th House</a></li>
+                        <li><a href="libra-stellium-12th-house.html" class="house-link">Libra Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Scorpio -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♏</div>
+                    <h3>Scorpio Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="scorpio-stellium-1st-house.html" class="house-link">Scorpio Stellium in 1st House</a></li>
+                        <li><a href="scorpio-stellium-2nd-house.html" class="house-link">Scorpio Stellium in 2nd House</a></li>
+                        <li><a href="scorpio-stellium-3rd-house.html" class="house-link">Scorpio Stellium in 3rd House</a></li>
+                        <li><a href="scorpio-stellium-4th-house.html" class="house-link">Scorpio Stellium in 4th House</a></li>
+                        <li><a href="scorpio-stellium-5th-house.html" class="house-link">Scorpio Stellium in 5th House</a></li>
+                        <li><a href="scorpio-stellium-6th-house.html" class="house-link">Scorpio Stellium in 6th House</a></li>
+                        <li><a href="scorpio-stellium-7th-house.html" class="house-link">Scorpio Stellium in 7th House</a></li>
+                        <li><a href="scorpio-stellium-8th-house.html" class="house-link">Scorpio Stellium in 8th House</a></li>
+                        <li><a href="scorpio-stellium-9th-house.html" class="house-link">Scorpio Stellium in 9th House</a></li>
+                        <li><a href="scorpio-stellium-10th-house.html" class="house-link">Scorpio Stellium in 10th House</a></li>
+                        <li><a href="scorpio-stellium-11th-house.html" class="house-link">Scorpio Stellium in 11th House</a></li>
+                        <li><a href="scorpio-stellium-12th-house.html" class="house-link">Scorpio Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Sagittarius -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♐</div>
+                    <h3>Sagittarius Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="sagittarius-stellium-1st-house.html" class="house-link">Sagittarius Stellium in 1st House</a></li>
+                        <li><a href="sagittarius-stellium-2nd-house.html" class="house-link">Sagittarius Stellium in 2nd House</a></li>
+                        <li><a href="sagittarius-stellium-3rd-house.html" class="house-link">Sagittarius Stellium in 3rd House</a></li>
+                        <li><a href="sagittarius-stellium-4th-house.html" class="house-link">Sagittarius Stellium in 4th House</a></li>
+                        <li><a href="sagittarius-stellium-5th-house.html" class="house-link">Sagittarius Stellium in 5th House</a></li>
+                        <li><a href="sagittarius-stellium-6th-house.html" class="house-link">Sagittarius Stellium in 6th House</a></li>
+                        <li><a href="sagittarius-stellium-7th-house.html" class="house-link">Sagittarius Stellium in 7th House</a></li>
+                        <li><a href="sagittarius-stellium-8th-house.html" class="house-link">Sagittarius Stellium in 8th House</a></li>
+                        <li><a href="sagittarius-stellium-9th-house.html" class="house-link">Sagittarius Stellium in 9th House</a></li>
+                        <li><a href="sagittarius-stellium-10th-house.html" class="house-link">Sagittarius Stellium in 10th House</a></li>
+                        <li><a href="sagittarius-stellium-11th-house.html" class="house-link">Sagittarius Stellium in 11th House</a></li>
+                        <li><a href="sagittarius-stellium-12th-house.html" class="house-link">Sagittarius Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Capricorn -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♑</div>
+                    <h3>Capricorn Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="capricorn-stellium-1st-house.html" class="house-link">Capricorn Stellium in 1st House</a></li>
+                        <li><a href="capricorn-stellium-2nd-house.html" class="house-link">Capricorn Stellium in 2nd House</a></li>
+                        <li><a href="capricorn-stellium-3rd-house.html" class="house-link">Capricorn Stellium in 3rd House</a></li>
+                        <li><a href="capricorn-stellium-4th-house.html" class="house-link">Capricorn Stellium in 4th House</a></li>
+                        <li><a href="capricorn-stellium-5th-house.html" class="house-link">Capricorn Stellium in 5th House</a></li>
+                        <li><a href="capricorn-stellium-6th-house.html" class="house-link">Capricorn Stellium in 6th House</a></li>
+                        <li><a href="capricorn-stellium-7th-house.html" class="house-link">Capricorn Stellium in 7th House</a></li>
+                        <li><a href="capricorn-stellium-8th-house.html" class="house-link">Capricorn Stellium in 8th House</a></li>
+                        <li><a href="capricorn-stellium-9th-house.html" class="house-link">Capricorn Stellium in 9th House</a></li>
+                        <li><a href="capricorn-stellium-10th-house.html" class="house-link">Capricorn Stellium in 10th House</a></li>
+                        <li><a href="capricorn-stellium-11th-house.html" class="house-link">Capricorn Stellium in 11th House</a></li>
+                        <li><a href="capricorn-stellium-12th-house.html" class="house-link">Capricorn Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Aquarius -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♒</div>
+                    <h3>Aquarius Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="aquarius-stellium-1st-house.html" class="house-link">Aquarius Stellium in 1st House</a></li>
+                        <li><a href="aquarius-stellium-2nd-house.html" class="house-link">Aquarius Stellium in 2nd House</a></li>
+                        <li><a href="aquarius-stellium-3rd-house.html" class="house-link">Aquarius Stellium in 3rd House</a></li>
+                        <li><a href="aquarius-stellium-4th-house.html" class="house-link">Aquarius Stellium in 4th House</a></li>
+                        <li><a href="aquarius-stellium-5th-house.html" class="house-link">Aquarius Stellium in 5th House</a></li>
+                        <li><a href="aquarius-stellium-6th-house.html" class="house-link">Aquarius Stellium in 6th House</a></li>
+                        <li><a href="aquarius-stellium-7th-house.html" class="house-link">Aquarius Stellium in 7th House</a></li>
+                        <li><a href="aquarius-stellium-8th-house.html" class="house-link">Aquarius Stellium in 8th House</a></li>
+                        <li><a href="aquarius-stellium-9th-house.html" class="house-link">Aquarius Stellium in 9th House</a></li>
+                        <li><a href="aquarius-stellium-10th-house.html" class="house-link">Aquarius Stellium in 10th House</a></li>
+                        <li><a href="aquarius-stellium-11th-house.html" class="house-link">Aquarius Stellium in 11th House</a></li>
+                        <li><a href="aquarius-stellium-12th-house.html" class="house-link">Aquarius Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Pisces -->
+            <div class="zodiac-card">
+                <div class="zodiac-header">
+                    <div class="zodiac-symbol">♓</div>
+                    <h3>Pisces Stelliums</h3>
+                </div>
+                <div class="zodiac-content">
+                    <ul class="houses-list">
+                        <li><a href="pisces-stellium-1st-house.html" class="house-link">Pisces Stellium in 1st House</a></li>
+                        <li><a href="pisces-stellium-2nd-house.html" class="house-link">Pisces Stellium in 2nd House</a></li>
+                        <li><a href="pisces-stellium-3rd-house.html" class="house-link">Pisces Stellium in 3rd House</a></li>
+                        <li><a href="pisces-stellium-4th-house.html" class="house-link">Pisces Stellium in 4th House</a></li>
+                        <li><a href="pisces-stellium-5th-house.html" class="house-link">Pisces Stellium in 5th House</a></li>
+                        <li><a href="pisces-stellium-6th-house.html" class="house-link">Pisces Stellium in 6th House</a></li>
+                        <li><a href="pisces-stellium-7th-house.html" class="house-link">Pisces Stellium in 7th House</a></li>
+                        <li><a href="pisces-stellium-8th-house.html" class="house-link">Pisces Stellium in 8th House</a></li>
+                        <li><a href="pisces-stellium-9th-house.html" class="house-link">Pisces Stellium in 9th House</a></li>
+                        <li><a href="pisces-stellium-10th-house.html" class="house-link">Pisces Stellium in 10th House</a></li>
+                        <li><a href="pisces-stellium-11th-house.html" class="house-link">Pisces Stellium in 11th House</a></li>
+                        <li><a href="pisces-stellium-12th-house.html" class="house-link">Pisces Stellium in 12th House</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-banner">
+            <p>For a limited time, you can receive a free copy of 'The Astrologer's Guide: Mastering Birth Chart Interpretation' by subscribing to our newsletter. Get your free book here: <a href="https://hermesastrology.substack.com/p/your-free-book">https://hermesastrology.substack.com/p/your-free-book</a></p>
+            <img src="Astrologer_Guide.webp" alt="The Astrologer's Guide: Mastering Birth Chart Interpretation" class="book-image">
         </div>
         
         <div class="featured-section">
-            <h2>Understanding Stelliums</h2>
-            <p>A stellium occurs when three or more planets cluster in one zodiac sign or house, creating an intense concentration of energy that becomes a dominant theme in your birth chart. When this happens in Aries, the sign of initiative and courage, it creates a powerful drive to pioneer, lead, and assert your individuality in the area of life represented by the house placement.</p>
-            <p>Explore how this dynamic energy manifests in each area of your life by clicking on the house placements above.</p>
-        </div>
-        
-        <h2>All Zodiac Stelliums</h2>
-        <p>Browse stellium interpretations for all zodiac signs (Aries is currently featured):</p>
-        
-        <div class="zodiac-signs">
-            <div class="zodiac-sign current">Aries</div>
-            <div class="zodiac-sign coming-soon">Taurus</div>
-            <div class="zodiac-sign coming-soon">Gemini</div>
-            <div class="zodiac-sign coming-soon">Cancer</div>
-            <div class="zodiac-sign coming-soon">Leo</div>
-            <div class="zodiac-sign coming-soon">Virgo</div>
-            <div class="zodiac-sign coming-soon">Libra</div>
-            <div class="zodiac-sign coming-soon">Scorpio</div>
-            <div class="zodiac-sign coming-soon">Sagittarius</div>
-            <div class="zodiac-sign coming-soon">Capricorn</div>
-            <div class="zodiac-sign coming-soon">Aquarius</div>
-            <div class="zodiac-sign coming-soon">Pisces</div>
+            <h2>How to Use This Stellium Guide</h2>
+            <p>To find your personal stellium interpretations:</p>
+            <ol>
+                <li>Identify which zodiac sign contains three or more planets in your birth chart</li>
+                <li>Note which house this stellium falls in</li>
+                <li>Click on the corresponding zodiac sign above</li>
+                <li>Select the house placement that matches your chart</li>
+                <li>Read the detailed interpretation to understand how this powerful energy manifests in your life</li>
+            </ol>
+            <p>Remember that stelliums represent areas of intense focus and development in your life journey. They show where you have exceptional potential but may also face significant challenges as you learn to master this concentrated energy.</p>
         </div>
     </div>
 
     <div class="author-section">
-        <h2>About Stelliums Org</h2>
-        <h3>Comprehensive Astrology Resources</h3>
+        <h2>About the Author</h2>
+        <h3>Hermes Astrology</h3>
+        <p><strong>Trusted Astrology Expert with 15,000+ Followers</strong></p>
         
-        <p>Stelliums Org provides in-depth astrological interpretations focused on planetary clusters and their profound impact on human experience. Our mission is to make complex astrological concepts accessible and practical for personal growth and self-understanding.</p>
+        <p>📧 10,000+ Substack Subscribers (<a href="https://hermesastrology.substack.com/">https://hermesastrology.substack.com/</a>)<br>
+        ✍️ 5,000+ Medium Followers (<a href="https://medium.com/@HermesAstrology">https://medium.com/@HermesAstrology</a>)</p>
+        
+        <p>"Decode Your Lifepath, Empower Your Present, and Light the Way for Others."</p>
 
-        <h3>About Our Astrology Approach</h3>
-        <p>We combine traditional astrological wisdom with contemporary psychological insights to create interpretations that are both spiritually meaningful and practically applicable. Each guide is meticulously researched and written to help you understand how planetary energies manifest in different areas of your life.</p>
+        <h3>About Hermes Astrology</h3>
+        <p>Hermes Astrology brings ancient astrological wisdom to the modern seeker, combining traditional techniques with contemporary psychological insights. With over 15,000 dedicated followers across platforms, Hermes has established a reputation for accurate, transformative astrological guidance that helps individuals navigate life's challenges and opportunities through planetary wisdom.</p>
     </div>
 
     <footer>
-        <p><a href="https://stelliums.org/">stelliums.org</a> | Follow Us: <a href="https://hermesastrology.substack.com/">Substack</a> | <a href="https://medium.com/@HermesAstrology">Medium</a></p>
+        <p><a href="https://stelliums.org/">stelliums.org</a> | Follow Hermes Astrology: <a href="https://hermesastrology.substack.com/">Substack</a> | <a href="https://medium.com/@HermesAstrology">Medium</a></p>
         <p>© 2024 Stelliums Org. All astrological interpretations are for personal growth and entertainment purposes.</p>
     </footer>
 </body>
