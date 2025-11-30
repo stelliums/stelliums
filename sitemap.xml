@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Homepage and main pages -->
+    <!-- Main Pages -->
     <url>
         <loc>https://stelliums.org/</loc>
         <lastmod>2025-11-30</lastmod>
@@ -98,9 +98,89 @@
         <priority>0.9</priority>
     </url>
 
-    <!-- New Aries Stellium Content Pages -->
+    <!-- Taurus Stellium House Pages -->
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_1st_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_2nd_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_3rd_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_4th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_5th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_6th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_7th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_8th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_9th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_10th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_11th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_12th_house.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Special Content Pages -->
     <url>
         <loc>https://stelliums.org/aries_taurus_stellium.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_gemini_stellium.html</loc>
         <lastmod>2025-11-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -111,6 +191,8 @@
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+
+    <!-- Planet Stellium Pages -->
     <url>
         <loc>https://stelliums.org/5_planet_stellium_aries.html</loc>
         <lastmod>2025-11-30</lastmod>
@@ -124,7 +206,27 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://stelliums.org/5_planet_stellium_taurus.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/6_planet_stellium_taurus.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Characteristics and Profile Pages -->
+    <url>
         <loc>https://stelliums.org/aries_stellium_characteristics.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_characteristics.html</loc>
         <lastmod>2025-11-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -136,7 +238,19 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://stelliums.org/taurus_stellium_woman.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://stelliums.org/aries_stellium_personality.html</loc>
+        <lastmod>2025-11-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://stelliums.org/taurus_stellium_personality.html</loc>
         <lastmod>2025-11-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -147,21 +261,5 @@
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
-
-    <!-- Future pages (commented out until ready) -->
-    <!--
-    <url>
-        <loc>https://stelliums.org/taurus_stellium_1st_house.html</loc>
-        <lastmod>2025-11-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://stelliums.org/gemini_stellium_1st_house.html</loc>
-        <lastmod>2025-11-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    -->
     
 </urlset>
