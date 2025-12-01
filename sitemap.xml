@@ -15,6 +15,11 @@
         <loc>https://stelliums.org/contact.html</loc>
     </url>
 
+    <!-- Robots.txt -->
+    <url>
+        <loc>https://stelliums.org/robots.txt</loc>
+    </url>
+
     <!-- Aries Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/aries_stellium_1st_house.html</loc>
