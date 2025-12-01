@@ -134,6 +134,44 @@
         <loc>https://stelliums.org/gemini_stellium_12th_house.html</loc>
     </url>
 
+    <!-- Cancer Stellium House Pages -->
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_1st_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_2nd_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_3rd_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_4th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_5th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_6th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_7th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_8th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_9th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_10th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_11th_house.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_12th_house.html</loc>
+    </url>
+
     <!-- Special Content Pages -->
     <url>
         <loc>https://stelliums.org/aries_taurus_stellium.html</loc>
@@ -146,6 +184,9 @@
     </url>
     <url>
         <loc>https://stelliums.org/pisces_aries_stellium.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/cancer_leo_stellium.html</loc>
     </url>
 
     <!-- Planet Stellium Pages -->
@@ -167,6 +208,12 @@
     <url>
         <loc>https://stelliums.org/6_planet_stellium_gemini.html</loc>
     </url>
+    <url>
+        <loc>https://stelliums.org/5_planet_stellium_cancer_.html</loc>
+    </url>
+    <url>
+        <loc>https://stelliums.org/6_planet_stellium_cancer_.html</loc>
+    </url>
 
     <!-- Characteristics and Profile Pages -->
     <url>
@@ -179,6 +226,10 @@
         <loc>https://stelliums.org/gemini_stellium_characteristics.html</loc>
     </url>
     <url>
+        <loc>https://stelliums.org/cancer_stellium_characteristics.html</loc>
+    </url>
+    
+    <url>
         <loc>https://stelliums.org/aries_stellium_woman.html</loc>
     </url>
     <url>
@@ -188,6 +239,10 @@
         <loc>https://stelliums.org/gemini_stellium_woman.html</loc>
     </url>
     <url>
+        <loc>https://stelliums.org/cancer_stellium_woman.html</loc>
+    </url>
+    
+    <url>
         <loc>https://stelliums.org/aries_stellium_personality.html</loc>
     </url>
     <url>
@@ -196,6 +251,10 @@
     <url>
         <loc>https://stelliums.org/gemini_stellium_personality.html</loc>
     </url>
+    <url>
+        <loc>https://stelliums.org/cancer_stellium_personality.html</loc>
+    </url>
+    
     <url>
         <loc>https://stelliums.org/aries_stellium_traits.html</loc>
     </url>
