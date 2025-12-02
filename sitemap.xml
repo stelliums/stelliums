@@ -193,7 +193,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_12th_house.html</loc>
     </url>
-    <!-- Virgo House Pages -->
     <url>
         <loc>https://stelliums.org/virgo_stellium_1st_house.html</loc>
     </url>
@@ -230,7 +229,6 @@
     <url>
         <loc>https://stelliums.org/virgo_stellium_12th_house.html</loc>
     </url>
-    <!-- Libra House Pages -->
     <url>
         <loc>https://stelliums.org/libra_stellium_1st_house.html</loc>
     </url>
@@ -289,7 +287,6 @@
     <url>
         <loc>https://stelliums.org/libra_scorpio_stellium.html</loc>
     </url>
-    <!-- Additional Virgo Special Pages -->
     <url>
         <loc>https://stelliums.org/virgo_libra_stellium.html</loc>
     </url>
@@ -332,7 +329,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_characteristics.html</loc>
     </url>
-    <!-- Virgo and Libra Characteristics Pages -->
     <url>
         <loc>https://stelliums.org/virgo_stellium_characteristics.html</loc>
     </url>
@@ -354,7 +350,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_woman.html</loc>
     </url>
-    <!-- Virgo and Libra Woman Pages -->
     <url>
         <loc>https://stelliums.org/virgo_stellium_woman.html</loc>
     </url>
@@ -376,7 +371,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_personality.html</loc>
     </url>
-    <!-- Virgo and Libra Personality Pages -->
     <url>
         <loc>https://stelliums.org/virgo_stellium_personality.html</loc>
     </url>
@@ -387,3 +381,4 @@
         <loc>https://stelliums.org/aries_stellium_traits.html</loc>
     </url>
 </urlset>
+
