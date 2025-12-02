@@ -1,10 +1,10 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Main Pages -->
     <url>
         <loc>https://stelliums.org/</loc>
     </url>
@@ -14,13 +14,9 @@
     <url>
         <loc>https://stelliums.org/contact.html</loc>
     </url>
-
-    <!-- Robots.txt -->
     <url>
         <loc>https://stelliums.org/robots.txt</loc>
     </url>
-
-    <!-- Aries Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/aries_stellium_1st_house.html</loc>
     </url>
@@ -57,8 +53,6 @@
     <url>
         <loc>https://stelliums.org/aries_stellium_12th_house.html</loc>
     </url>
-
-    <!-- Taurus Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/taurus_stellium_1st_house.html</loc>
     </url>
@@ -95,8 +89,6 @@
     <url>
         <loc>https://stelliums.org/taurus_stellium_12th_house.html</loc>
     </url>
-
-    <!-- Gemini Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/gemini_stellium_1st_house.html</loc>
     </url>
@@ -133,8 +125,6 @@
     <url>
         <loc>https://stelliums.org/gemini_stellium_12th_house.html</loc>
     </url>
-
-    <!-- Cancer Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/cancer_stellium_1st_house.html</loc>
     </url>
@@ -171,8 +161,6 @@
     <url>
         <loc>https://stelliums.org/cancer_stellium_12th_house.html</loc>
     </url>
-
-    <!-- Leo Stellium House Pages -->
     <url>
         <loc>https://stelliums.org/leo_stellium_1st_house.html</loc>
     </url>
@@ -209,8 +197,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_12th_house.html</loc>
     </url>
-
-    <!-- Special Content Pages -->
     <url>
         <loc>https://stelliums.org/aries_taurus_stellium.html</loc>
     </url>
@@ -229,8 +215,6 @@
     <url>
         <loc>https://stelliums.org/leo_virgo_stellium.html</loc>
     </url>
-
-    <!-- Planet Stellium Pages -->
     <url>
         <loc>https://stelliums.org/5_planet_stellium_aries.html</loc>
     </url>
@@ -255,8 +239,6 @@
     <url>
         <loc>https://stelliums.org/6_planet_stellium_cancer_.html</loc>
     </url>
-
-    <!-- Characteristics and Profile Pages -->
     <url>
         <loc>https://stelliums.org/aries_stellium_characteristics.html</loc>
     </url>
@@ -272,7 +254,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_characteristics.html</loc>
     </url>
-    
     <url>
         <loc>https://stelliums.org/aries_stellium_woman.html</loc>
     </url>
@@ -288,7 +269,6 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_woman.html</loc>
     </url>
-    
     <url>
         <loc>https://stelliums.org/aries_stellium_personality.html</loc>
     </url>
@@ -304,9 +284,8 @@
     <url>
         <loc>https://stelliums.org/leo_stellium_personality.html</loc>
     </url>
-    
     <url>
         <loc>https://stelliums.org/aries_stellium_traits.html</loc>
     </url>
-    
 </urlset>
+```
