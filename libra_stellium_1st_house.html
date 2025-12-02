@@ -47,206 +47,146 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            background: #f8f9fa;
         }
         header {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 2.5rem;
+            padding: 2rem;
             margin-bottom: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             position: relative;
             overflow: hidden;
         }
         .header-content {
             position: relative;
             z-index: 2;
-            max-width: 85%;
         }
         .libra-symbol {
             position: absolute;
             top: 20px;
-            right: 30px;
-            width: 90px;
-            height: 90px;
-            opacity: 0.25;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            opacity: 0.3;
             z-index: 1;
-            filter: brightness(0) invert(1);
         }
         nav {
             background: #2c3e50;
-            padding: 1.2rem;
+            padding: 1rem;
             margin-bottom: 2rem;
-            border-radius: 8px;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            flex-wrap: wrap;
+            border-radius: 5px;
         }
         nav a {
             color: white;
             text-decoration: none;
+            margin-right: 1.5rem;
             font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
         }
         nav a:hover {
-            background: rgba(255, 255, 255, 0.1);
-            transform: translateY(-2px);
+            text-decoration: underline;
         }
         h1 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 1rem;
             line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        .subtitle {
-            font-size: 1.3rem;
-            opacity: 0.95;
-            font-weight: 300;
         }
         h2 {
-            font-size: 2rem;
-            margin: 2.5rem 0 1.2rem 0;
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
             color: #2c3e50;
-            border-bottom: 3px solid #4facfe;
-            padding-bottom: 0.7rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
         }
         h3 {
-            font-size: 1.5rem;
-            margin: 1.8rem 0 0.8rem 0;
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.5rem 0;
             color: #34495e;
         }
         p {
-            margin-bottom: 1.3rem;
-            font-size: 1.15rem;
-            line-height: 1.8;
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
         }
         .content-section {
             background: white;
-            padding: 2.5rem;
-            margin-bottom: 2.5rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
         .cta-banner {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
             color: white;
-            padding: 2.5rem;
-            border-radius: 10px;
-            margin: 2.5rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
             text-align: center;
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
         }
         .cta-banner a {
             color: white;
             text-decoration: underline;
             font-weight: bold;
-            font-size: 1.1rem;
         }
         .author-section {
-            background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-            padding: 2.5rem;
-            border-radius: 10px;
-            margin: 2.5rem 0;
-            border-left: 5px solid #4facfe;
+            background: #ecf0f1;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
         }
         .faq-section {
-            background: #f8f9ff;
-            padding: 2.5rem;
-            border-radius: 10px;
-            margin: 2.5rem 0;
-            border: 1px solid #e1e8ff;
-        }
-        .faq-item {
-            background: white;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
+            background: #e8f4f8;
+            padding: 2rem;
             border-radius: 8px;
-            border-left: 4px solid #4facfe;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            margin: 2rem 0;
+        }
+        .book-image {
+            max-width: 300px;
+            margin: 1rem auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .libra-feature-image {
-            max-width: 500px;
+            max-width: 400px;
             margin: 2rem auto;
             display: block;
-            border-radius: 12px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         footer {
             text-align: center;
-            margin-top: 4rem;
-            padding: 2.5rem;
+            margin-top: 3rem;
+            padding: 2rem;
             border-top: 1px solid #bdc3c7;
             color: #7f8c8d;
-            background: white;
-            border-radius: 10px;
         }
         a {
             color: #3498db;
             text-decoration: none;
-            transition: color 0.3s ease;
         }
         a:hover {
-            color: #1d6fa5;
             text-decoration: underline;
         }
         .highlight {
-            background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-            padding: 0.3rem 0.6rem;
-            border-radius: 4px;
-            font-weight: 600;
+            background: #fff3cd;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
         }
         .conclusion {
-            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
             color: white;
-            padding: 2.5rem;
-            border-radius: 10px;
-            margin: 2.5rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
             font-style: italic;
-            box-shadow: 0 6px 20px rgba(102, 166, 255, 0.3);
         }
         .image-caption {
             text-align: center;
             font-style: italic;
             color: #666;
-            margin-top: 0.8rem;
-            font-size: 1rem;
-        }
-        .planetary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-        .planet-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            border-top: 4px solid #4facfe;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        }
-        .planet-card h4 {
-            color: #2c3e50;
-            margin-bottom: 0.8rem;
-            font-size: 1.2rem;
-        }
-        ul, ol {
-            margin: 1rem 0 1rem 2rem;
-            line-height: 1.7;
-        }
-        li {
-            margin-bottom: 0.8rem;
-        }
-        blockquote {
-            border-left: 4px solid #4facfe;
-            padding: 1rem 0 1rem 2rem;
-            margin: 1.5rem 0;
-            font-style: italic;
-            background: #f8f9ff;
-            border-radius: 0 8px 8px 0;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -254,7 +194,7 @@
     <header>
         <div class="header-content">
             <h1>The Libra Stellium in the 1st House: The Embodied Diplomat</h1>
-            <p class="subtitle">Unlock the secrets of this harmonious astrological placement and discover how it shapes your identity, relationships, and pursuit of balance.</p>
+            <p>Unlock the secrets of this balanced astrological placement and discover how it shapes your identity, relationships, and pursuit of harmony.</p>
         </div>
         <img src="libra.webp" alt="Libra Zodiac Symbol" class="libra-symbol">
     </header>
@@ -263,18 +203,16 @@
         <a href="https://stelliums.org/">Home</a>
         <a href="https://stelliums.org/about">About</a>
         <a href="https://stelliums.org/contact">Contact</a>
-        <a href="https://stelliums.org/blog">Blog</a>
-        <a href="https://stelliums.org/resources">Resources</a>
     </nav>
 
     <div class="content-section">
         <img src="libra.webp" alt="Libra Constellation and Zodiac Symbol - The Scales" class="libra-feature-image">
-        <p class="image-caption">The Libra constellation - symbol of balance, justice, and harmonious relationships</p>
+        <p class="image-caption">The Libra constellation - symbol of balance, justice, and partnership</p>
 
-        <p>A <span class="highlight">stellium</span>, in astrological terms, is a concentration of three or more planets in a single zodiac sign or house. When this gathering occurs in the sign of <span class="highlight">Libra</span> and is placed in the <span class="highlight">1st House</span> of the natal chart, it creates a powerful and complex personality archetype: the individual whose very identity and presence (1st House) is saturated with the themes of balance, relationship, aesthetics, and justice (Libra). This placement signifies a life path intensely focused on the development of self through the mirror of the other, and on projecting harmony, beauty, and diplomacy into the world.</p>
+        <p>A <strong>stellium</strong>, in astrological terms, is a concentration of three or more planets in a single zodiac sign or house. When this gathering occurs in the sign of <strong>Libra</strong> and is placed in the <strong>1st House</strong> of the natal chart, it creates a powerful and complex personality archetype: the individual whose very identity and presence (1st House) is saturated with the themes of balance, relationship, aesthetics, and justice (Libra). This placement signifies a life path intensely focused on the development of self through the mirror of the other, and on projecting harmony, beauty, and diplomacy into the world.</p>
 
         <h2>Understanding the Core Components</h2>
-
+        
         <h3>The 1st House: The House of Self</h3>
         <p>The <strong>First House</strong>, also known as the Ascendant or Rising sign, is the cornerstone of the natal chart. It represents the self, the physical body, first impressions, personal initiative, and the overall approach to life. It's the lens through which the world is perceived and the mask presented upon entering any room. Planets placed here are incredibly potent, as they color the fundamental expression of identity. You can explore the details of house systems on <a href="https://www.astro-seek.com/astrology-houses" target="_blank">AstroSeek's Astrology Houses page</a>.</p>
 
@@ -285,7 +223,6 @@
         <p>A stellium acts as a powerhouse of astrological energy, amplifying the themes of its sign and house placement. With a Libra stellium in the 1st House, the individual doesn't just have a Libran quality—they <em>are</em> Libra incarnate in their personal presentation. Every planet in that stellium works through the Libran filter to express the core self.</p>
 
         <h2>The Lived Experience: Personality and Presentation</h2>
-        
         <p><strong>Physical Appearance and Vibe:</strong> Often, there is a marked Venusian beauty or charm about these individuals. Their style is usually impeccable, leaning towards elegance, harmony, and what is socially pleasing. They may have a natural sense of symmetry in their features and a gracious, inviting demeanor. The aura they project is rarely confrontational; instead, it seeks to put others at ease, to charm and relate. Their smile is their first line of diplomacy.</p>
 
         <p><strong>Core Motivation: Relationship as a Mirror.</strong> The central journey for this person is understanding the self ("Who am I?" - 1st House) almost exclusively through the context of one-on-one relationships ("The Other" - Libra). Their identity is often forged in partnership, through comparison, and in the dance of negotiation. They learn about their own desires by seeing them reflected (or contradicted) in others. This can lead to a struggle with excessive people-pleasing or indecisiveness, as their internal scales are constantly weighing external opinions.</p>
@@ -295,75 +232,52 @@
         <p><strong>The Shadow Side: Indecision and Dependency.</strong> The profound ability to see every perspective can paralyze their ability to choose for themselves. The question "What do <em>I</em> want?" can be surprisingly difficult to answer without external reference points. There can be a dependency on partnership to feel complete or validated, echoing the myth of Libra's ruler, Venus, and her search for her lost counterpart. Learning to find balance <em>within</em>, rather than constantly seeking it <em>without</em>, is a critical lesson.</p>
 
         <h2>Planetary Influences Within the Stellium</h2>
-        
         <p>The specific planets involved in the stellium add crucial layers of meaning. You can calculate your own chart to see these placements on <a href="https://www.astro.com/cgi/chart.cgi" target="_blank">Astro.com's Free Chart Drawing</a>.</p>
 
-        <div class="planetary-grid">
-            <div class="planet-card">
-                <h4>Sun in Libra 1st House</h4>
-                <p>The core ego and life purpose are defined by becoming a balanced, fair, and artistic individual. Identity is tied to being a partner.</p>
-            </div>
-            <div class="planet-card">
-                <h4>Moon in Libra 1st House</h4>
-                <p>Emotional security comes from harmony, beautiful surroundings, and peaceful relationships. Their feelings are expressed with charm and a need for reciprocity.</p>
-            </div>
-            <div class="planet-card">
-                <h4>Mercury in Libra 1st House</h4>
-                <p>The mind is diplomatic, fair, and artistic. Communication is gentle, persuasive, and aimed at building bridges. Thoughts are often shaped by considering others' viewpoints.</p>
-            </div>
-            <div class="planet-card">
-                <h4>Venus in Libra 1st House</h4>
-                <p>This is Venus in its home sign, domicile, amplifying its energy. Love, beauty, and values are the primary tools for self-expression. The individual is a natural aesthete and charmer.</p>
-            </div>
-            <div class="planet-card">
-                <h4>Mars in Libra 1st House</h4>
-                <p>Assertion and drive are expressed through diplomacy and the fight for justice. However, taking direct, selfish action can be challenging, as Mars is in its sign of detriment. Anger is often passive-aggressive or channeled into righteous causes.</p>
-            </div>
-        </div>
+        <ul>
+            <li><strong>Sun in Libra 1st House:</strong> The core ego and life purpose are defined by becoming a balanced, fair, and artistic individual. Identity is tied to being a partner.</li>
+            <li><strong>Moon in Libra 1st House:</strong> Emotional security comes from harmony, beautiful surroundings, and peaceful relationships. Their feelings are expressed with charm and a need for reciprocity.</li>
+            <li><strong>Mercury in Libra 1st House:</strong> The mind is diplomatic, fair, and artistic. Communication is gentle, persuasive, and aimed at building bridges. Thoughts are often shaped by considering others' viewpoints.</li>
+            <li><strong>Venus in Libra 1st House (if also in Libra):</strong> This is Venus in its home sign, domicile, amplifying its energy. Love, beauty, and values are the primary tools for self-expression. The individual is a natural aesthete and charmer.</li>
+            <li><strong>Mars in Libra 1st House:</strong> Assertion and drive are expressed through diplomacy and the fight for justice. However, taking direct, selfish action can be challenging, as Mars is in its sign of detriment. Anger is often passive-aggressive or channeled into righteous causes.</li>
+        </ul>
+
+        <h2>Life Path and Purpose: The Diplomat's Journey</h2>
+        <p>The life path of someone with this placement is one of seeking balance and creating harmony. They are natural peacemakers, diplomats, and artists who bring beauty and fairness into every situation. Their purpose is often tied to being a bridge between people—the mediator who resolves conflicts, the designer who creates beautiful spaces, or the counselor who helps relationships find equilibrium.</p>
+
+        <p>They thrive in environments that value aesthetics, social grace, and fair play. Careers in law, diplomacy, art, design, counseling, or any field that requires tact and negotiation are ideal. They are natural relationship builders, whether that means creating partnerships in business, fostering community connections, or helping others find balance in their personal lives.</p>
+
+        <p>In relationships, they need a partner who appreciates beauty and harmony but also respects their need for partnership. They are devoted and fair partners, but they require someone who understands their need for balance and won't take advantage of their accommodating nature.</p>
     </div>
 
     <div class="cta-banner">
-        <h3>Unlock Your Full Astrological Potential</h3>
-        <p>For a limited time, you can receive a free copy of 'The Art of Relationship Astrology' by subscribing to our newsletter. Discover how your planetary placements influence your connections.</p>
-        <p>Get your free book here: <a href="https://hermesastrology.substack.com/p/your-free-book">https://hermesastrology.substack.com/p/your-free-book</a></p>
+        <p>For a limited time, you can receive a free copy of 'The Astrologer's Guide: Mastering Birth Chart Interpretation' by subscribing to our newsletter. Get your free book here: <a href="https://hermesastrology.substack.com/p/your-free-book">https://hermesastrology.substack.com/p/your-free-book</a></p>
+        <img src="Astrologer_Guide.webp" alt="The Astrologer's Guide: Mastering Birth Chart Interpretation" class="book-image">
     </div>
 
     <div class="faq-section">
         <h2>Frequently Asked Questions (FAQ)</h2>
         
-        <div class="faq-item">
-            <h3>What does a Libra stellium mean?</h3>
-            <p>A Libra stellium indicates a life where the cosmic themes of balance, partnership, justice, and aesthetics are overwhelmingly emphasized. Regardless of the house placement, the individual's attention and energy are repeatedly drawn to creating harmony, engaging in relationships, appreciating beauty, and navigating social codes. They are here to learn the art of diplomacy, both internally and externally, and to master the give-and-take of equitable exchange. The concentration of planets creates a personality for whom these Libran principles are non-negotiable, central motivators.</p>
-        </div>
+        <h3>What does a Libra stellium mean?</h3>
+        <p>A Libra stellium indicates a life where the cosmic themes of balance, partnership, justice, and aesthetics are overwhelmingly emphasized. Regardless of the house placement, the individual's attention and energy are repeatedly drawn to creating harmony, engaging in relationships, appreciating beauty, and navigating social codes. They are here to learn the art of diplomacy, both internally and externally, and to master the give-and-take of equitable exchange. The concentration of planets creates a personality for whom these Libran principles are non-negotiable, central motivators.</p>
 
-        <div class="faq-item">
-            <h3>Is a stellium in Libra rare?</h3>
-            <p>The rarity of any stellium depends on the ever-moving positions of the planets. While having three or more planets in any single sign is not an everyday occurrence, it is a common enough astrological pattern. What makes a Libra stellium particularly impactful is the fact that it groups social, airy energy into a concentrated form. During certain astrological eras, when several slow-moving outer planets (like Jupiter, Saturn, Uranus, Neptune, or Pluto) transit through Libra for years at a time, generations can share a Libra stellium in their natal charts, coloring their collective approach to relationships and society.</p>
-        </div>
+        <h3>Is a stellium in Libra rare?</h3>
+        <p>The rarity of any stellium depends on the ever-moving positions of the planets. While having three or more planets in any single sign is not an everyday occurrence, it is a common enough astrological pattern. What makes a Libra stellium particularly impactful is the fact that it groups social, airy energy into a concentrated form. During certain astrological eras, when several slow-moving outer planets (like Jupiter, Saturn, Uranus, Neptune, or Pluto) transit through Libra for years at a time, generations can share a Libra stellium in their natal charts, coloring their collective approach to relationships and society.</p>
 
-        <div class="faq-item">
-            <h3>What is the 1st house stellium personality?</h3>
-            <p>A 1st house stellium creates a personality that is intense, pronounced, and impossible to ignore. The individual is a "planetary powerhouse" in terms of self-projection. Their identity is multifaceted, complex, and highly charged with the energies of the planets involved. They often have a strong sense of destiny and a need to make a marked impression on the world. Their life path is intensely personal and focused on the development and expression of the self. The sign on the 1st house, and the sign(s) of the planets within it, dictate <em>how</em> this powerful self is expressed.</p>
-        </div>
+        <h3>What is the 1st house stellium personality?</h3>
+        <p>A 1st house stellium creates a personality that is intense, pronounced, and impossible to ignore. The individual is a "planetary powerhouse" in terms of self-projection. Their identity is multifaceted, complex, and highly charged with the energies of the planets involved. They often have a strong sense of destiny and a need to make a marked impression on the world. Their life path is intensely personal and focused on the development and expression of the self. The sign on the 1st house, and the sign(s) of the planets within it, dictate <em>how</em> this powerful self is expressed.</p>
 
-        <div class="faq-item">
-            <h3>What are Libra stellium celebrities?</h3>
-            <p>Several well-known figures exemplify the Libran charm and focus on image, many of whom likely have strong Libra placements. For instance, <strong>Kim Kardashian</strong> (Sun, Mercury, and Jupiter in Libra) exemplifies the Libran focus on aesthetics, partnership, and social balance (often acting as a mediator in her family). <strong>John Lennon</strong> (Sun, Mercury, and Venus in Libra) channeled Libran ideals of peace, love, and harmony through his music and activism. <strong>Matt Damon</strong> (Sun, Mercury, and Saturn in Libra) often plays characters who are strategists, negotiators, or seekers of justice, reflecting the Libran mind. It's important to check full birth charts for exact stellium confirmations, which are available on sites like <a href="https://www.astro-seek.com/celebrities" target="_blank">Astro-Seek's Celebrity Database</a>.</p>
-        </div>
+        <h3>What are Libra stellium celebrities?</h3>
+        <p>Several well-known figures exemplify the Libran charm and focus on image, many of whom likely have strong Libra placements. For instance, <strong>Kim Kardashian</strong> (Sun, Mercury, and Jupiter in Libra) exemplifies the Libran focus on aesthetics, partnership, and social balance (often acting as a mediator in her family). <strong>John Lennon</strong> (Sun, Mercury, and Venus in Libra) channeled Libran ideals of peace, love, and harmony through his music and activism. <strong>Matt Damon</strong> (Sun, Mercury, and Saturn in Libra) often plays characters who are strategists, negotiators, or seekers of justice, reflecting the Libran mind. It's important to check full birth charts for exact stellium confirmations, which are available on sites like <a href="https://www.astro-seek.com/celebrities" target="_blank">Astro-Seek's Celebrity Database</a>.</p>
 
-        <div class="faq-item">
-            <h3>What is the shadow side of Libra stellium?</h3>
-            <p>The shadow side of a Libra stellium primarily revolves around the avoidance of necessary conflict, deep indecisiveness, and a loss of self in the pursuit of partnership. The desire for harmony can become a pathological need to please, leading to resentment and inauthenticity. The love of beauty can devolve into vanity or superficial judgments. The supreme ability to see all sides can make it difficult to take a firm, principled stand, sometimes appearing two-faced or unreliable. The greatest challenge is to integrate the polarity of Aries—to learn to say "I am" and "I want" without immediate reference to another, to embrace healthy selfishness and assertive action.</p>
-        </div>
+        <h3>What is the shadow side of Libra stellium?</h3>
+        <p>The shadow side of a Libra stellium primarily revolves around the avoidance of necessary conflict, deep indecisiveness, and a loss of self in the pursuit of partnership. The desire for harmony can become a pathological need to please, leading to resentment and inauthenticity. The love of beauty can devolve into vanity or superficial judgments. The supreme ability to see all sides can make it difficult to take a firm, principled stand, sometimes appearing two-faced or unreliable. The greatest challenge is to integrate the polarity of Aries—to learn to say "I am" and "I want" without immediate reference to another, to embrace healthy selfishness and assertive action.</p>
     </div>
 
     <div class="conclusion">
         <h2>Evolutionary Path and Conclusion</h2>
         <p>The evolutionary goal for the individual with a Libra stellium in the 1st House is to become the <strong>Conscious Ambassador</strong>. They are not here to lose themselves in others, but to use the mirror of relationship to forge a self that is both uniquely individual and exquisitely attuned to the collective. They must learn that true harmony is not the absence of conflict but the graceful integration of differences. Their gift to the world is their ability to model cooperation, to create beauty that elevates the spirit, and to insist on fairness in an unbalanced world. By first establishing an internal equilibrium, they become the living embodiment of the Scales—a point of calm, justice, and refined grace in the chaos of human experience.</p>
-        
-        <blockquote>
-            "For further reading on the astronomical basis of zodiac signs, you can visit the <a href="https://en.wikipedia.org/wiki/Libra_(constellation)" target="_blank" style="color: white; text-decoration: underline;">Wikipedia entry on Libra (constellation)</a>."
-        </blockquote>
+        <p><em>For further reading on the astronomical basis of zodiac signs, you can visit the <a href="https://en.wikipedia.org/wiki/Libra_(constellation)" target="_blank" style="color:white;text-decoration:underline">Wikipedia entry on Libra (constellation)</a>.</em></p>
     </div>
 
     <div class="author-section">
@@ -382,7 +296,6 @@
 
     <footer>
         <p><a href="https://stelliums.org/">stelliums.org</a> | Follow Hermes Astrology: <a href="https://hermesastrology.substack.com/">Substack</a> | <a href="https://medium.com/@HermesAstrology">Medium</a></p>
-        <p style="margin-top: 1rem; font-size: 0.9rem;">&copy; 2025 Stelliums Org. All rights reserved. | Astrological insights for modern living</p>
     </footer>
 </body>
 </html>
