@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Rare Is a Stellium? A Statistical and Astrological Analysis</title>
+    <meta name="description" content="Explore the statistical rarity of stelliums in astrology. Learn how planetary concentrations occur, their frequency, and what makes certain stelliums exceptionally rare.">
+    <meta name="google-site-verification" content="ffQtLPOca_pv5OgGglWR6ryfWUMJZrShx_7WfoBTPYE" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How Rare Is a Stellium? A Statistical and Astrological Analysis",
+      "description": "Comprehensive analysis of stellium rarity in astrology, examining statistical probabilities, orbital considerations, and astrological significance",
+      "author": {
+        "@type": "Person",
+        "name": "Hermes Astrology"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stelliums Org"
+      },
+      "datePublished": "2025-12-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://stelliums.org/stellium-rarity"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        header {
+            background: linear-gradient(135deg, #1565C0 0%, #0D47A1 100%);
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        .stellium-symbol {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            opacity: 0.3;
+            z-index: 1;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1.5rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #1565C0;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.5rem 0;
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+        .content-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .cta-banner {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .cta-banner a {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .author-section {
+            background: #ecf0f1;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .faq-section {
+            background: #e8f4f8;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .book-image {
+            max-width: 300px;
+            margin: 1rem auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .feature-image {
+            max-width: 500px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid #bdc3c7;
+            color: #7f8c8d;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+        .conclusion {
+            background: linear-gradient(135deg, #1565C0 0%, #0D47A1 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            font-style: italic;
+        }
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        blockquote {
+            border-left: 4px solid #1565C0;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #555;
+        }
+        .statistical-box {
+            background: #e3f2fd;
+            border: 2px solid #1565C0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .rarity-scale {
+            background: #f1f8e9;
+            border-left: 4px solid #7CB342;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .comparison-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .key-insight {
+            background: #fff8e1;
+            border-left: 4px solid #FF8F00;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 4px 4px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Note for readers about zodiac systems -->
+    <div>
+        <strong>
+            💡 IMPORTANT NOTE: Please note that in astrology there are 2 zodiac systems, the Tropical zodiac and the Sidereal zodiac. If the description does not match your life experience, then you may be using the wrong zodiac. To learn more about the Tropical and Sidereal zodiac <a href="https://hermesastrology.substack.com/p/which-is-more-accurate-vedic-or-western-0f2" target="_blank" rel="noopener">VISIT HERE</a>.
+        </strong>
+    </div>
+    <header>
+        <div class="header-content">
+            <h1>How Rare Is a Stellium? A Statistical and Astrological Analysis</h1>
+            <p>Explore the statistical probability and astrological significance of stellium formations. Discover what makes certain planetary clusters exceptionally rare.</p>
+        </div>
+        <img src="chart.webp" alt="Astrological Chart Analysis Showing Stellium Rarity" class="stellium-symbol">
+    </header>
+    
+    <nav>
+        <a href="https://stelliums.org/">Home</a>
+        <a href="https://hermesastrology.substack.com/p/readings">Astrology Readings</a>
+        <a href="https://hermesastrology.substack.com/p/the-art-of-birth-chart-interpretation">Astrology Course</a>
+        <a href="https://ko-fi.com/hermesastrology">Support</a>
+        <a href="https://stelliums.org/about">About</a>
+        <a href="https://stelliums.org/contact">Contact</a>
+    </nav>
+
+    <div class="content-section">
+        <img src="chart.webp" alt="Statistical Analysis of Planetary Concentrations in Astrology" class="feature-image">
+        <p class="image-caption">Analyzing planetary distributions to understand stellium frequency and rarity in astrological charts</p>
+
+        <div class="statistical-box">
+            <p><strong>Statistical Perspective:</strong> The rarity of a stellium in astrology is a nuanced question that depends heavily on the definition used, the planets included, and the mathematical parameters applied. While stelliums are not everyday occurrences, they are far from being once-in-a-generation anomalies. Their perceived rarity stems from their profound impact when they do occur, making them stand out in chart interpretation.</p>
+        </div>
+
+        <p>A precise assessment requires breaking down the variables that determine what constitutes a stellium and how frequently such configurations occur in both the sky and individual birth charts.</p>
+
+        <h2>Defining the Variables: What Counts as a Stellium?</h2>
+        <p>The frequency of stelliums hinges entirely on the astrologer's criteria. The core variables are:</p>
+
+        <ol>
+            <li><strong>Number of Planets Required:</strong> The most common definition requires <strong>three or more planets</strong>. Some traditionalists, particularly in certain branches of Vedic astrology, argue for <strong>four or more planets</strong> to denote a truly significant concentration. Using three as the benchmark naturally yields a higher frequency than using four.</li>
+            <li><strong>Which Celestial Bodies Are Included:</strong> The most common practice includes the <strong>seven classical planets</strong>: Sun, Moon, Mercury, Venus, Mars, Jupiter, and Saturn. Many modern astrologers also include the <strong>outer planets</strong> (Uranus, Neptune, Pluto) and occasionally the <strong>astrological angles</strong> (Ascendant, Midheaven). Including more bodies increases the likelihood of a cluster.</li>
+            <li><strong>Orb of Conjunction:</strong> This is the most critical and often overlooked factor. Do the planets need to be within a certain number of degrees of each other? Some astrologers require a <strong>tight orb</strong> (e.g., all planets within 5-10 degrees) for a true stellium, arguing that a 30-degree spread across a sign is too diffuse. Others consider any three planets in the same 30-degree sign, regardless of orb. Tight orbs create much rarer configurations.</li>
+        </ol>
+
+        <h2>Statistical Probability and Orb Consideration</h2>
+        <p>For a basic statistical model using the <strong>seven classical planets</strong> and defining a stellium as <strong>any three or more in the same 30-degree zodiac sign</strong>, the probability is moderate. The planets are not evenly distributed; they cluster due to the geometry of the solar system (all planets orbit roughly in the same plane, the ecliptic). Mercury and Venus, as inner planets, are always found near the Sun, creating a frequent core for potential stelliums involving the Sun.</p>
+
+        <p><strong>A stellium of three planets (from the seven classical) in one sign is not exceptionally rare.</strong> Over the course of a decade, you will find many such configurations. For example, in 2020, there was a notable stellium in Capricorn involving Jupiter, Saturn, and Pluto, with Mercury and the Sun periodically joining.</p>
+
+        <div class="rarity-scale">
+            <p><strong>Rarity Escalation:</strong> When you increase the parameters, the rarity escalates sharply:</p>
+            <ul>
+                <li><strong>A stellium of four classical planets</strong> in one sign is less common, occurring several times a decade.</li>
+                <li><strong>A stellium of five or more classical planets</strong> is a notable and relatively rare event, often making headlines in astronomical and astrological circles.</li>
+                <li><strong>A stellium with a tight orb (e.g., within 5 degrees)</strong> is significantly rarer than one with a wide orb spread across a sign.</li>
+            </ul>
+        </div>
+
+        <h2>The Rarity of Personal Chart Stelliums vs. Generational Stelliums</h2>
+        <p>This is a crucial distinction in understanding stellium rarity:</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Personal Chart Stellium</th>
+                    <th>Generational Stellium</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Planets Involved</strong></td>
+                    <td>Personal planets (Sun, Moon, Mercury, Venus, Mars)</td>
+                    <td>Outer planets (Jupiter, Saturn, Uranus, Neptune, Pluto)</td>
+                </tr>
+                <tr>
+                    <td><strong>Timeframe</strong></td>
+                    <td>Specific birth moment (exact time sensitive)</td>
+                    <td>Months to years (affects entire generation)</td>
+                </tr>
+                <tr>
+                    <td><strong>Rarity Level</strong></td>
+                    <td>More unique to individual</td>
+                    <td>Common for the generation</td>
+                </tr>
+                <tr>
+                    <td><strong>Moon Inclusion</strong></td>
+                    <td>Requires specific birth timing (increases rarity)</td>
+                    <td>Not typically included</td>
+                </tr>
+                <tr>
+                    <td><strong>Astrological Impact</strong></td>
+                    <td>Personal destiny and character focus</td>
+                    <td>Collective themes and generational characteristics</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>*   <strong>Generational Stelliums:</strong> These involve slow-moving outer planets (Jupiter, Saturn, Uranus, Neptune, Pluto) and occur for everyone born during that period. For instance, the Pluto-Uranus conjunction in Virgo in the mid-1960s formed a generational stellium for those born then, especially when joined by Mars, Venus, or Mercury. These are not rare for the generation but define its collective character.</p>
+
+        <p>*   <strong>Personal Chart Stelliums:</strong> These are unique to an individual's birth moment and involve the <strong>personal planets</strong> (Sun, Moon, Mercury, Venus, Mars) clustering in a sign or house. The inclusion of the <strong>Moon</strong> is particularly significant, as it moves about 12-13 degrees per day. For a stellium to include the Moon, the individual must be born within a specific, often narrow, window of time when the Moon transits through the sign containing other planets. This makes <strong>personal stelliums involving the Moon more unique and "rarer" on an individual level</strong>.</p>
+
+        <div class="key-insight">
+            <p><strong>Key Insight:</strong> For a stellium to include the Moon, the individual must be born within a specific, often narrow, window of time when the Moon transits through the sign containing other planets. This makes personal stelliums involving the Moon more unique and "rarer" on an individual level.</p>
+        </div>
+
+        <h2>House Stelliums: A Matter of Birth Time</h2>
+        <p>The rarity of a <strong>house stellium</strong> (three or more planets in one astrological house) is entirely dependent on the accuracy and specificity of the <strong>birth time</strong>. Because the house cusps move approximately one degree every four minutes, a stellium that appears in the 9th house for a birth at 8:00 AM could straddle the 8th and 9th houses for a birth at 8:15 AM. Therefore, a precise, tight house stellium is uniquely personal and can be considered "rare" for that individual, as it requires a specific planetary alignment at a specific moment and location.</p>
+
+        <blockquote>
+            "The 'rarity' of a stellium is less about sheer statistical improbability and more about astrological significance. When a stellium occurs, it creates a dominant, unmistakable focal point in the chart that can overshadow other placements."
+        </blockquote>
+
+        <h2>Conclusion: Contextual Rarity</h2>
+        <p>So, how rare is a stellium? Here's a contextual breakdown:</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Rarity Level</th>
+                    <th>Configuration</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Common</strong></td>
+                    <td>Loose grouping of 3 planets (including outer planets) in one sign over 30°</td>
+                    <td>Several times per year</td>
+                </tr>
+                <tr>
+                    <td><strong>Uncommon</strong></td>
+                    <td>4 planets in one sign, or tight personal stellium of 3 including Moon</td>
+                    <td>Several times per decade</td>
+                </tr>
+                <tr>
+                    <td><strong>Rare</strong></td>
+                    <td>5+ classical planets in one sign with moderate orb</td>
+                    <td>A few times per century</td>
+                </tr>
+                <tr>
+                    <td><strong>Very Rare</strong></td>
+                    <td>5+ personal planets in tight orb (within 10 degrees)</td>
+                    <td>Exceptionally uncommon</td>
+                </tr>
+                <tr>
+                    <td><strong>Uniquely Personal</strong></td>
+                    <td>Precise house stellium dependent on exact birth time</td>
+                    <td>Unique to individual</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Ultimately, the "rarity" of a stellium is less about sheer statistical improbability and more about <strong>astrological significance</strong>. When a stellium occurs, it creates a dominant, unmistakable focal point in the chart that can overshadow other placements. This psychological and interpretive weight makes it feel special and noteworthy, regardless of the exact frequency of its occurrence. For those wishing to investigate the occurrence of historical stelliums, resources like <a href="https://www.astro.com/astrology/in_ephemeris_e.htm" target="_blank">Astro.com's ephemeris tools</a> or <a href="https://en.wikipedia.org/wiki/Conjunction_(astronomy)" target="_blank">Wikipedia's lists of planetary conjunctions</a> can provide concrete data.</p>
+    </div>
+
+    <div class="cta-banner">
+        <p>For a limited time, you can receive a free copy of 'The Astrologer's Guide: Mastering Birth Chart Interpretation' by subscribing to our newsletter. Get your free book here: <a href="https://hermesastrology.substack.com/p/your-free-book">https://hermesastrology.substack.com/p/your-free-book</a></p>
+        <img src="Astrologer_Guide.webp" alt="The Astrologer's Guide: Mastering Birth Chart Interpretation" class="book-image">
+    </div>
+
+    <div class="faq-section">
+        <h2>Frequently Asked Questions About Stellium Rarity</h2>
+        
+        <h3>What is the rarest type of stellium?</h3>
+        <p>The rarest type of stellium is a <strong>tightly concentrated stellium involving five or more of the personal planets (Sun, Moon, Mercury, Venus, Mars) in a single sign, with a very close orb (e.g., within 5-7 degrees)</strong>. This requires a precise astronomical alignment where the fast-moving Moon and Mercury-Venus duo (which are always near the Sun) all converge with Mars in a narrow sector of the zodiac at the moment of birth. An example would be having the Sun at 15° Leo, the Moon at 18° Leo, Mercury at 16° Leo, Venus at 12° Leo, and Mars at 19° Leo. Such a configuration focuses an immense amount of core life energy into one archetype, making it exceptionally potent and uncommon on an individual level.</p>
+
+        <h3>Is it rare to have two stelliums in your chart?</h3>
+        <p>Having <strong>two distinct stelliums</strong> in a natal chart is less common than having one, but it is not extraordinarily rare. It indicates a chart where planetary energy is concentrated in two primary areas (signs or houses), creating a life narrative with two powerful, often competing or complementary, centers of gravity. Its frequency depends on the strictness of definition. If using a loose orb and three planets per stellium, it can occur periodically. If requiring four planets per stellium or very tight orbs, the occurrence becomes less frequent. The uniqueness lies in the specific combination and the dynamic aspect pattern between the two stelliums, which creates a highly specialized life focus.</p>
+
+        <h3>How often do grand stelliums (like 5+ planets) happen in the sky?</h3>
+        <p>Major <strong>grand stelliums</strong> involving five or more planets in one sign are noteworthy astronomical and astrological events that typically happen <strong>a few times per century</strong>. These are often generational markers. The 1962 Aquarius alignment (7 planets) is a famous 20th-century example. A more recent significant clustering occurred in late 2020, with Jupiter, Saturn, Mercury, and the Sun in Capricorn, closely followed by Venus and Pluto. These events are cyclical and predictable through astronomy. Their astrological significance is interpreted as defining the collective themes for those born under them and triggering major world events during their exact formations. You can review historical planetary alignments on <a href="https://ssd.jpl.nasa.gov/?ephemerides" target="_blank">NASA's ephemeris resources</a> for precise data.</p>
+
+        <h3>Does a stellium including outer planets make it less special?</h3>
+        <p>Including <strong>outer planets (Uranus, Neptune, Pluto)</strong> in a stellium does not make it "less special," but it changes its nature from <strong>personal to generational</strong>. A stellium containing an outer planet is shared by everyone born within a period of months or even years. For example, a stellium of Sun, Mercury, and Uranus in Taurus will affect an entire cohort. What makes it personally significant is how this generational energy integrates with your unique personal planets (Moon, Ascendant, etc.) and houses. The "special" quality comes from the individual chart context, not the outer planet's presence alone. The outer planet adds a layer of collective, transformative, or transcendental energy to the personal themes of the stellium.</p>
+
+        <h3>Can a stellium be too common to be meaningful?</h3>
+        <p>Even if a particular planetary grouping is not astronomically rare (e.g., a Sun-Mercury-Venus conjunction, which occurs annually), its <strong>astrological meaning is never diluted or "too common"</strong> when it appears in an individual's birth chart. In natal astrology, the chart is a map of the soul at a unique moment in time and space. A stellium's meaning derives from its central role in <em>that specific chart</em>—its house placement, the aspects it makes to other personal points (like the Ascendant or Moon), and its condition. A "common" three-planet stellium occupying the 10th house and squaring the native's Saturn will have a profoundly impactful and unique manifestation in that person's life, regardless of how often that planetary trio conjoins in the sky. The meaning is personalized, not generalized.</p>
+    </div>
+
+    <div class="conclusion">
+        <h2>Conclusion: The Significance Beyond Statistics</h2>
+        <p>While statistical analysis helps us understand the frequency of stellium formations, the true measure of a stellium's importance lies in its astrological impact rather than its mathematical rarity. A stellium's power comes from its ability to concentrate planetary energy into specific life areas, creating themes that dominate an individual's experience and development.</p>
+        <p>The most meaningful approach to stellium analysis recognizes that even "common" configurations become profoundly unique when personalized through house placement, aspects, and integration with the rest of the birth chart. Whether a stellium occurs once a year or once a century, its significance in an individual's life is determined by how that concentrated energy interacts with their unique astrological blueprint and life circumstances.</p>
+    </div>
+
+    <a href='https://ko-fi.com/c0c4oof5u' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='buy me a coffee at ko-fi.com' /></a>
+    
+    <div class="author-section">
+        <h2>About the Author</h2>
+        <h3>Hermes Astrology</h3>
+        <p><strong>Trusted Astrology Expert with 15,000+ Followers</strong></p>
+        
+        <p>📧 10,000+ Substack Subscribers (<a href="https://hermesastrology.substack.com/">https://hermesastrology.substack.com/</a>)<br>
+        ✍️ 5,000+ Medium Followers (<a href="https://medium.com/@HermesAstrology">https://medium.com/@HermesAstrology</a>)</p>
+        
+        <p>"Decode Your Lifepath, Empower Your Present, and Light the Way for Others."</p>
+
+        <h3>About Hermes Astrology</h3>
+        <p>Hermes Astrology brings ancient astrological wisdom to the modern seeker, combining traditional techniques with contemporary psychological insights. With over 15,000 dedicated followers across platforms, Hermes has established a reputation for accurate, transformative astrological guidance that helps individuals navigate life's challenges and opportunities through planetary wisdom.</p>
+    </div>
+
+    
+    <!-- Note for readers about zodiac systems -->
+    <div>
+        <strong>
+            💡 IMPORTANT NOTE: Please note that in astrology there are 2 zodiac systems, the Tropical zodiac and the Sidereal zodiac. If the description does not match your life experience, then you may be using the wrong zodiac. To learn more about the Tropical and Sidereal zodiac <a href="https://hermesastrology.substack.com/p/which-is-more-accurate-vedic-or-western-0f2" target="_blank" rel="noopener">VISIT HERE</a>.
+        </strong>
+    </div> 
+    
+    <footer>
+        <p>
+            <a href="https://stelliums.org/privacy.html">Privacy</a> | 
+            <a href="https://stelliums.org/cookie_policy.html">Cookies</a> | 
+            <a href="https://stelliums.org/terms_of_service.html">Terms of Service</a> | 
+            <a href="https://stelliums.org/">stelliums.org</a> | 
+            Follow Hermes Astrology: 
+            <a href="https://hermesastrology.substack.com/">Substack</a> | 
+            <a href="https://medium.com/@HermesAstrology">Medium</a>
+        </p>
+    </footer>
+    
+    <script src="/js/ad.js"></script>
+    <iframe id='kofiframe' src='https://ko-fi.com/hermesastrology/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='hermesastrology'></iframe>
+</body>
+</html>
