@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://stelliums.org/sitemap-stelliums.xml
+Sitemap: https://stelliums.org/sitemap.xml
+
 
 
